@@ -27,8 +27,9 @@ int main(){
 		N++;
 
 	}while(grade!=0);
-
-		cout << "In total ? students.\n";
+		int sum;
+		sum = count[0]+count[1]+count[2]+count[3]+count[4];
+		cout << "In total " << sum << " students.\n";
 		cout << "A = " << count[0] <<", ";
 		cout << "B = " << count[1] <<", ";	
 		cout << "C = " << count[2] <<", ";
